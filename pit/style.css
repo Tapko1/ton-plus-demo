@@ -100,8 +100,7 @@ section[id], footer[id] { scroll-margin-top: 20px; }
 #schedule div { display: flex; justify-content: space-between; gap: 10px; }
 #schedule dd { font-variant-numeric: tabular-nums; }
 .map { min-width: 0; }
-.map iframe { display: block; width: 100%; height: clamp(245px, 34vw, 405px); background: var(--panel); border: 1px solid var(--line); }
-.map figcaption { margin-top: 4px; color: var(--muted); text-align: right; font-size: .75rem; }
+.map .ton-map { display: block; width: 100%; height: clamp(245px, 34vw, 405px); background: var(--panel); border: 1px solid var(--line); }
 
 .closing { background: var(--steel); }
 .closing-inner { display: grid; gap: 20px; padding-block: clamp(32px, 5.5vw, 78px); }

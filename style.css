@@ -70,8 +70,7 @@ h1 { margin-block: 9px 13px; font-size: clamp(5.3rem, 25vw, 8.2rem); letter-spac
 .location address strong { color: var(--ink); font-size: 1.15rem; }
 .location dl { max-width: 300px; margin-block: 18px; font-variant-numeric: tabular-nums; }
 .location dl div { display: flex; justify-content: space-between; gap: 12px; padding-block: 6px; border-bottom: 1px solid var(--line); }
-.map iframe { display: block; width: 100%; height: clamp(235px, 38vw, 365px); border: 1px solid var(--line); background: #e7e1d5; }
-.map figcaption { padding-top: 5px; text-align: right; color: var(--muted); font-size: .72rem; }
+.map .ton-map { display: block; width: 100%; height: clamp(235px, 38vw, 365px); border: 1px solid var(--line); background: #e7e1d5; }
 .closing { background: #ebe2d3; }
 .closing-inner { display: grid; gap: 17px; padding-block: 35px; }
 .closing h2 { font-size: clamp(1.9rem, 4.6vw, 3.5rem); }

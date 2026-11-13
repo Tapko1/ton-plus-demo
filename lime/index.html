@@ -12,6 +12,8 @@
 <script src="./hours.js" defer></script>
 <script src="./mobile-call.js" defer></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoRepair","name":"Тон+","telephone":"+74997071330","address":{"@type":"PostalAddress","addressLocality":"Домодедово","streetAddress":"улица Корнеева, 14"}}</script>
+<link rel="stylesheet" href="./map.css">
+<script src="./map.js" defer></script>
 </head>
 <body>
 <header class="header"><div class="wrap header-inner">
@@ -61,7 +63,14 @@
 <dl id="schedule" class="schedule" data-time-zone="Europe/Moscow"><div data-days="Mon Tue Wed Thu Fri" data-open="09:00" data-close="20:00"><dt>Пн–Пт</dt><dd>09:00–20:00</dd></div><div data-days="Sat" data-open="09:00" data-close="17:00"><dt>Сб</dt><dd>09:00–17:00</dd></div><div data-days="Sun"><dt>Вс</dt><dd>Закрыто</dd></div></dl>
 <a class="text-link" href="https://yandex.ru/maps/?rtext=~55.434349%2C37.772495&amp;rtt=auto">Построить маршрут <span aria-hidden="true">↗</span></a>
 </div>
-<figure class="map"><iframe title="Тон+ на карте Домодедова" src="https://www.openstreetmap.org/export/embed.html?bbox=37.765%2C55.431%2C37.780%2C55.438&amp;layer=mapnik&amp;marker=55.434349%2C37.772495" loading="lazy"></iframe><figcaption><a href="https://www.openstreetmap.org/copyright">© Участники OpenStreetMap</a></figcaption></figure>
+<figure class="map">
+  <div class="ton-map" data-longitude="37.772495" data-latitude="55.434349" data-map-title="Тон+ на карте Домодедова" data-map-state="fallback">
+    <div class="ton-map-canvas"></div>
+    <div class="ton-map-fallback"><a href="https://yandex.ru/maps/?rtext=~55.434349%2C37.772495&amp;rtt=auto">Открыть маршрут в Яндекс Картах</a></div>
+    <button class="ton-map-info" type="button" aria-label="Источники карты" aria-expanded="false" aria-controls="ton-map-credit" hidden>ⓘ</button>
+    <div class="ton-map-credit" id="ton-map-credit" hidden>© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://openmaptiles.org/docs/terminology/attribution/">OpenMapTiles</a></div>
+  </div>
+</figure>
 </div></section>
 <section class="closing"><div class="wrap closing-inner"><div><p class="eyebrow">Тон+ · Автосервис</p><h2>Согласуем время?</h2><p>Позвоните, чтобы уточнить стоимость и записаться.</p></div><div class="closing-call"><a class="button primary" href="tel:+74997071330"><span class="call-number">+7 (499) 707-13-30</span><span class="call-label">Позвонить и записаться</span><span aria-hidden="true">↗</span></a></div></div></section>
 </main>

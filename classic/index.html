@@ -10,6 +10,8 @@
   <script src="hours.js" defer></script>
   <script src="mobile-call.js" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoRepair","name":"Тон+","address":{"@type":"PostalAddress","streetAddress":"ул. Корнеева, 14","addressLocality":"Домодедово"},"telephone":"+74997071330"}</script>
+<link rel="stylesheet" href="./map.css">
+<script src="./map.js" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -106,8 +108,12 @@
           <a class="button ink" href="https://yandex.ru/maps/?rtext=~55.434349%2C37.772495&amp;rtt=auto" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 3 14 21l-3.5-7.5L3 10l18-7Z"/></svg> Построить маршрут</a>
         </div>
         <figure class="map-panel">
-          <iframe class="map" title="Карта проезда — Домодедово, ул. Корнеева, 14" src="https://www.openstreetmap.org/export/embed.html?bbox=37.765%2C55.431%2C37.780%2C55.438&amp;layer=mapnik&amp;marker=55.434349%2C37.772495" loading="lazy"></iframe>
-          <figcaption><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© Участники OpenStreetMap</a></figcaption>
+          <div class="map ton-map" data-longitude="37.772495" data-latitude="55.434349" data-map-title="Карта проезда — Домодедово, ул. Корнеева, 14" data-map-state="fallback">
+            <div class="ton-map-canvas"></div>
+            <div class="ton-map-fallback"><a href="https://yandex.ru/maps/?rtext=~55.434349%2C37.772495&amp;rtt=auto">Открыть маршрут в Яндекс Картах</a></div>
+            <button class="ton-map-info" type="button" aria-label="Источники карты" aria-expanded="false" aria-controls="ton-map-credit" hidden>ⓘ</button>
+            <div class="ton-map-credit" id="ton-map-credit" hidden>© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://openmaptiles.org/docs/terminology/attribution/">OpenMapTiles</a></div>
+          </div>
         </figure>
       </div>
     </section>

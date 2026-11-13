@@ -79,8 +79,7 @@ address { font-style: normal; margin-top: 15px; }
 dl { margin-block: 14px; max-width: 270px; }
 dl div { display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); gap: 7px; padding-block: 5px; }
 .map { display: flex; flex-direction: column; }
-.map iframe { display: block; width: 100%; min-height: 260px; flex: 1; border: 1px solid var(--line); border-radius: 5px; }
-.map figcaption { margin-top: 4px; text-align: right; font-size: 12px; color: var(--muted); }
+.map .ton-map { display: block; width: 100%; min-height: 260px; flex: 1; border: 1px solid var(--line); border-radius: 5px; }
 .closing { background: var(--ice); padding-block: clamp(26px, 5vw, 50px); }
 .closing-grid { display: grid; gap: 15px; align-items: center; }
 .closing h2 { font-size: clamp(26px, 4vw, 42px); }

@@ -585,19 +585,13 @@ h1 > span {
   min-width: 0;
 }
 
-.map iframe {
+.map .ton-map {
   height: 330px;
   width: 100%;
   border: 0;
   background: var(--paper);
 }
 
-.map figcaption {
-  text-align: right;
-  font-size: 11px;
-  color: var(--muted);
-  margin-top: 8px;
-}
 
 .closing {
   padding-block: 54px;
@@ -887,7 +881,7 @@ footer {
     font-size: 10px;
   }
 
-  .map iframe {
+  .map .ton-map {
     height: 280px;
   }
 

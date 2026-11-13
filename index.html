@@ -14,6 +14,8 @@
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"AutoRepair","name":"Тон+","telephone":"+74997071330","address":{"@type":"PostalAddress","addressLocality":"Домодедово","streetAddress":"улица Корнеева, 14"}}
   </script>
+<link rel="stylesheet" href="./map.css">
+<script src="./map.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -89,8 +91,12 @@
         <a class="button secondary" href="https://yandex.ru/maps/?rtext=~55.434349%2C37.772495&amp;rtt=auto">Построить маршрут <span aria-hidden="true">↗</span></a>
       </div>
       <figure class="map">
-        <iframe title="Расположение Тон+ на OpenStreetMap" src="https://www.openstreetmap.org/export/embed.html?bbox=37.765%2C55.431%2C37.780%2C55.438&amp;layer=mapnik&amp;marker=55.434349%2C37.772495" loading="lazy"></iframe>
-        <figcaption><a href="https://www.openstreetmap.org/copyright">© Участники OpenStreetMap</a></figcaption>
+        <div class="ton-map" data-longitude="37.772495" data-latitude="55.434349" data-map-title="Расположение Тон+ на OpenStreetMap" data-map-state="fallback">
+          <div class="ton-map-canvas"></div>
+          <div class="ton-map-fallback"><a href="https://yandex.ru/maps/?rtext=~55.434349%2C37.772495&amp;rtt=auto">Открыть маршрут в Яндекс Картах</a></div>
+          <button class="ton-map-info" type="button" aria-label="Источники карты" aria-expanded="false" aria-controls="ton-map-credit" hidden>ⓘ</button>
+          <div class="ton-map-credit" id="ton-map-credit" hidden>© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://openmaptiles.org/docs/terminology/attribution/">OpenMapTiles</a></div>
+        </div>
       </figure>
     </section>
 
