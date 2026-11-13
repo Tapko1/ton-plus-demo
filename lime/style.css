@@ -292,15 +292,6 @@ h1 > span {
   color: var(--accent);
 }
 
-.photo-caption {
-  position: absolute;
-  bottom: 22px;
-  right: 0;
-  font-size: 11px;
-  background: var(--deep);
-  padding: 3px 7px;
-}
-
 .hero-bottom {
   border-block: 1px solid var(--line);
   background: var(--bg);
@@ -436,13 +427,6 @@ h1 > span {
   right: 24px;
   font-size: 22px;
   font-family: Oswald, sans-serif;
-}
-
-.details p span {
-  display: block;
-  font: 11px Arial, sans-serif;
-  margin-top: 8px;
-  color: var(--muted);
 }
 
 .reviews {
@@ -748,11 +732,6 @@ footer {
 
   .hero-contact > a {
     font-size: 20px;
-  }
-
-  .photo-caption {
-    bottom: 12px;
-    font-size: 10px;
   }
 
   .facts {

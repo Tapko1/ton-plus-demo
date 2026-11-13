@@ -71,8 +71,6 @@ section[id], footer[id] { scroll-margin-top: 20px; }
 .secondary:hover { background: var(--steel); }
 .hero-visual { position: relative; margin-top: 20px; aspect-ratio: 1.85; overflow: hidden; background: var(--steel); border: 1px solid var(--line); }
 .hero-visual img { height: 100%; object-fit: cover; object-position: 54% 56%; }
-.hero-visual figcaption { position: absolute; bottom: 8px; right: 8px; padding: 3px 7px; background: #171a1de8; color: var(--text); font-size: .68rem; }
-
 .services { background: var(--paper); color: var(--ink); }
 .service-list { display: grid; gap: 9px; margin-top: 25px; padding: 0; list-style: none; }
 .service-list li { position: relative; padding: 18px 18px 14px 59px; border: 1px solid #a5aeb5; background: #f8f8f7; }
@@ -143,7 +141,6 @@ section[id], footer[id] { scroll-margin-top: 20px; }
   .hero-visual { position: absolute; z-index: -1; inset: 22px 0 22px 31%; margin: 0; aspect-ratio: auto; clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%); }
   .hero-visual::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--base), transparent 46%); }
   .hero-visual img { object-position: 59% 58%; }
-  .hero-visual figcaption { z-index: 1; bottom: 12px; right: 12px; }
   .actions { grid-template-columns: repeat(2, max-content); }
   .button { padding-inline: 21px; }
   .location-grid { grid-template-columns: minmax(0, .76fr) minmax(0, 1.24fr); align-items: center; }

@@ -65,20 +65,45 @@
 
   async function startMap() {
     root.dataset.mapState = 'loading';
-    const timeout = AbortSignal.timeout(15_000);
+    const longitude = Number(root.dataset.longitude);
+    const latitude = Number(root.dataset.latitude);
+    const center = [longitude, latitude];
+
+    const status = document.createElement('span');
+    status.textContent = 'Загружаем карту…';
+    status.setAttribute('role', 'status');
+    fallback.prepend(status);
 
     function showFallback() {
+      if (root.dataset.mapState === 'fallback') return;
       root.dataset.mapState = 'fallback';
+      ready = false;
+      clearTimeout(creditTimer);
+      info.hidden = true;
+      setCreditOpen(false);
       map?.remove();
+      status.remove();
+
+      const embed = new URL('https://www.openstreetmap.org/export/embed.html');
+      embed.searchParams.set('bbox', [longitude - .0075, latitude - .0035, longitude + .0075, latitude + .0035].join(','));
+      embed.searchParams.set('layer', 'mapnik');
+      embed.searchParams.set('marker', [latitude, longitude].join(','));
+
+      const frame = document.createElement('iframe');
+      frame.className = 'ton-map-embed';
+      frame.title = root.dataset.mapTitle;
+      frame.src = embed.href;
+      fallback.before(frame);
+      fallback.classList.add('ton-map-route');
+      fallback.hidden = false;
     }
 
-    timeout.addEventListener('abort', showFallback, { once: true });
+    const loadTimer = setTimeout(showFallback, 8_000);
 
     try {
       await loadLibrary();
-      if (timeout.aborted) return;
+      if (root.dataset.mapState === 'fallback') return;
 
-      const center = [Number(root.dataset.longitude), Number(root.dataset.latitude)];
       map = new window.maplibregl.Map({
         container: canvas,
         style: 'https://tiles.openfreemap.org/styles/positron',
@@ -104,7 +129,7 @@
         if (!hasMapData) return;
 
         map.off('idle', showMap);
-        timeout.removeEventListener('abort', showFallback);
+        clearTimeout(loadTimer);
         mapCanvas.tabIndex = 0;
         fallback.hidden = true;
         info.hidden = false;
@@ -116,12 +141,16 @@
 
       map.on('idle', showMap);
     } catch {
-      timeout.removeEventListener('abort', showFallback);
+      clearTimeout(loadTimer);
       showFallback();
     }
   }
 
-  if (!('IntersectionObserver' in window)) return;
+  if (!('IntersectionObserver' in window)) {
+    visible = true;
+    startMap();
+    return;
+  }
 
   const observer = new IntersectionObserver(([entry]) => {
     visible = entry.intersectionRatio >= visibilityThreshold;

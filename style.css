@@ -46,8 +46,6 @@ h1 { margin-block: 9px 13px; font-size: clamp(5.3rem, 25vw, 8.2rem); letter-spac
 .actions .button { flex: 1; }
 .hero-visual { position: relative; overflow: hidden; background: var(--ink); }
 .hero-visual img { display: block; width: 100%; height: auto; aspect-ratio: 1.65; object-fit: cover; object-position: 50% 51%; }
-.hero-visual figcaption { position: absolute; right: 10px; bottom: 10px; padding: 3px 7px; color: var(--light); background: var(--ink); font-size: .68rem; }
-
 .services { padding-block: 26px 65px; }
 .service-list { margin-top: 22px; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .service-list li { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; column-gap: 22px; padding-block: 14px; border-bottom: 1px solid var(--line); }

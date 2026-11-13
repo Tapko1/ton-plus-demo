@@ -31,6 +31,27 @@
   text-underline-offset: .15em;
 }
 
+.ton-map-fallback span {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.ton-map .ton-map-embed {
+  position: absolute;
+  inset: 0 0 32px;
+  display: block;
+  width: 100%;
+  height: calc(100% - 32px);
+  border: 0;
+}
+
+.ton-map-route {
+  inset: auto 0 0;
+  height: 32px;
+  padding: 0 8px;
+  font: 12px/1.4 system-ui, sans-serif;
+}
+
 .ton-map-info,
 .ton-map-credit {
   position: absolute;
