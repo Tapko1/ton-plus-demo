@@ -1,0 +1,164 @@
+[
+  {
+    "id": "p1-01",
+    "name": "M4-don",
+    "theme": "pit",
+    "address": "Домодедово, М-4 Дон, 43-й километр, 1/1",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+79053540000"
+  },
+  {
+    "id": "p1-02",
+    "name": "BsaWorkshop",
+    "theme": "classic",
+    "address": "Домодедово, улица Заборье, 127",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+79690616348"
+  },
+  {
+    "id": "p1-03",
+    "name": "Карат",
+    "theme": "classic",
+    "address": "Домодедово, Каширское шоссе, 47-й километр",
+    "status": "needs_client",
+    "hasMap": true,
+    "phone": "+79779669107"
+  },
+  {
+    "id": "p1-04",
+    "name": "Only Vag Service",
+    "theme": "lime",
+    "address": "Домодедово, Петровская улица, 23",
+    "status": "needs_client",
+    "hasMap": true,
+    "phone": "+79296226967"
+  },
+  {
+    "id": "p1-05",
+    "name": "Автосервис",
+    "theme": "classic",
+    "address": "Домодедово, улица Заборье, 47Б",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+79688838884"
+  },
+  {
+    "id": "p1-06",
+    "name": "Автосервис",
+    "theme": "pit",
+    "address": "Домодедово, улица Курыжова, 35",
+    "status": "needs_client",
+    "hasMap": true,
+    "phone": "+79688838884"
+  },
+  {
+    "id": "p1-07",
+    "name": "Шассисклаб",
+    "theme": "lime",
+    "address": "Домодедово, мкр. Южный, владение Валентина",
+    "status": "needs_client",
+    "hasMap": true,
+    "phone": "+79969975821"
+  },
+  {
+    "id": "p1-08",
+    "name": "Автопилот",
+    "theme": "classic",
+    "address": "Домодедово, Каширское шоссе, 15А",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+74951873887"
+  },
+  {
+    "id": "p1-09",
+    "name": "Vav-auto",
+    "theme": "pit",
+    "address": "Домодедово, Промышленная улица, 11 ст17",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+79261803502"
+  },
+  {
+    "id": "p1-10",
+    "name": "Каширка",
+    "theme": "lime",
+    "address": "Домодедово, Каширское шоссе, 1",
+    "status": "needs_client",
+    "hasMap": true,
+    "phone": "+79999973000"
+  },
+  {
+    "id": "p1-11",
+    "name": "5 Болтов",
+    "theme": "pit",
+    "address": "Домодедово, Дачная улица, 21А",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+79912543891"
+  },
+  {
+    "id": "p2-01",
+    "name": "Extaz/dmd/garage",
+    "theme": "lime",
+    "address": "Домодедово, Городская улица, 20",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+79850157071"
+  },
+  {
+    "id": "p2-02",
+    "name": "Шиномонтаж 24 часа",
+    "theme": "pit",
+    "address": "Домодедово, улица Ломоносова, 12Б",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+79691280403"
+  },
+  {
+    "id": "p2-03",
+    "name": "Ads",
+    "theme": "lime",
+    "address": "Домодедово, улица Энергетиков, 12 ст1",
+    "status": "needs_client",
+    "hasMap": true,
+    "phone": "+79153291919"
+  },
+  {
+    "id": "p2-04",
+    "name": "Expert",
+    "theme": "classic",
+    "address": "Домодедово, улица Текстильщиков, 1",
+    "status": "needs_client",
+    "hasMap": true,
+    "phone": "+79160818333"
+  },
+  {
+    "id": "p2-05",
+    "name": "Софит",
+    "theme": "classic",
+    "address": "Домодедово, улица Коломийца, 8а",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+79858634766"
+  },
+  {
+    "id": "p2-06",
+    "name": "AutoTechZone",
+    "theme": "lime",
+    "address": "Домодедово, улица Корнеева",
+    "status": "needs_client",
+    "hasMap": true,
+    "phone": "+79256644404"
+  },
+  {
+    "id": "p2-07",
+    "name": "Service-drive",
+    "theme": "pit",
+    "address": "Домодедово, Каширское шоссе, 105",
+    "status": "verified",
+    "hasMap": true,
+    "phone": "+74952298063"
+  }
+]

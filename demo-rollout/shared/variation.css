@@ -1,0 +1,116 @@
+.brand, .wordmark {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  font-size: clamp(1.15rem, 4.7vw, 1.75rem);
+}
+
+.hero h1 {
+  max-width: min(12ch, 100%);
+  overflow-wrap: anywhere;
+}
+
+body[data-theme="classic"] .hero h1 {
+  font-size: clamp(2.7rem, 11vw, 7rem);
+}
+
+body[data-theme="pit"] .hero h1 {
+  font-size: clamp(2.7rem, 9vw, 5.5rem);
+}
+
+body[data-theme="lime"] .hero h1 {
+  font-size: clamp(2.6rem, 10vw, 6rem);
+}
+
+.hero [class*="inner"] .demo,
+header .demo {
+  flex-shrink: 0;
+}
+
+.footer-inner {
+  flex-wrap: wrap;
+}
+
+.service-card .price {
+  display: inline-block;
+}
+
+.service-card.text-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.service-list .service-with-photo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: clamp(10px, 2vw, 20px);
+}
+
+.service-list .service-with-photo > .service-photo {
+  display: block;
+  flex: none;
+  width: clamp(68px, 18vw, 122px);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.service-list .service-with-photo > .service-photo-copy {
+  display: block;
+  min-width: 0;
+}
+
+.service-with-photo h3 {
+  overflow-wrap: anywhere;
+}
+
+body[data-theme="pit"] .service-list .service-with-photo {
+  padding: 14px;
+}
+
+.service-with-photo .service-photo-copy > a {
+  margin-top: 4px;
+  gap: 8px;
+}
+
+@media (min-width: 650px) {
+  body[data-theme="pit"] .service-list .service-with-photo {
+    display: block;
+    padding: 22px;
+  }
+
+  body[data-theme="pit"] .service-list .service-with-photo > .service-photo {
+    width: 100%;
+    aspect-ratio: 2;
+    margin-bottom: 14px;
+  }
+}
+
+.address-note {
+  margin: .5rem 0;
+}
+
+.reviews-compact {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.review-source-link {
+  margin-top: 1rem;
+}
+
+.facts.facts-compact {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.facts.facts-compact > p:last-child {
+  display: flex;
+  padding-left: clamp(12px, 3vw, 32px);
+  border-left: 1px solid var(--line);
+}
+
+@media (min-width: 740px) {
+  body[data-theme="pit"] .hero h1,
+  body[data-theme="lime"] .hero h1 {
+    font-size: clamp(3rem, 5.2vw, 6rem);
+  }
+}
