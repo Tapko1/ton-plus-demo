@@ -37,9 +37,16 @@ header .demo {
   font-weight: 650;
 }
 
-.footer-inner .website-phone {
+.footer-inner .website-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+}
+
+.footer-inner .website-contacts a {
   display: inline-flex;
   align-items: center;
+  gap: .25rem;
   min-height: 44px;
   color: inherit;
   text-underline-offset: .18em;

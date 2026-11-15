@@ -8,7 +8,11 @@
     "hasMap": true,
     "phone": "+79053540000",
     "phoneDisplay": "+7 (905) 354-00-00",
-    "websiteLabel": "Есть страница в Яндекс Бизнесе"
+    "websiteLabel": "Есть страница в Яндекс Бизнесе",
+    "website": {
+      "url": "https://shinomontazh-m-4-don-43-j-kilometr.clients.site/",
+      "status": "bad"
+    }
   },
   {
     "id": "p1-02",
@@ -19,7 +23,10 @@
     "hasMap": true,
     "phone": "+79690616348",
     "phoneDisplay": "+7 (969) 061-63-48",
-    "websiteLabel": "Сайт не найден"
+    "websiteLabel": "Сайт не найден",
+    "website": {
+      "status": "none"
+    }
   },
   {
     "id": "p1-03",
@@ -30,7 +37,11 @@
     "hasMap": true,
     "phone": "+79779669107",
     "phoneDisplay": "+7 (977) 966-91-07",
-    "websiteLabel": "Есть страница в Яндекс Бизнесе"
+    "websiteLabel": "Есть страница в Яндекс Бизнесе",
+    "website": {
+      "url": "https://shinomontazh-kashirskoe-shosse-47-j-kilometr.clients.site/",
+      "status": "bad"
+    }
   },
   {
     "id": "p1-04",
@@ -41,7 +52,11 @@
     "hasMap": true,
     "phone": "+79296226967",
     "phoneDisplay": "+7 (929) 622-69-67",
-    "websiteLabel": "Есть страница в Яндекс Бизнесе"
+    "websiteLabel": "Есть страница в Яндекс Бизнесе",
+    "website": {
+      "url": "https://only-vag-service.clients.site/",
+      "status": "bad"
+    }
   },
   {
     "id": "p1-05",
@@ -52,7 +67,11 @@
     "hasMap": true,
     "phone": "+79688838884",
     "phoneDisplay": "+7 (968) 883-88-84",
-    "websiteLabel": "Есть страница в Яндекс Бизнесе"
+    "websiteLabel": "Есть страница в Яндекс Бизнесе",
+    "website": {
+      "url": "https://avtoservis-1738943855.clients.site/",
+      "status": "bad"
+    }
   },
   {
     "id": "p1-06",
@@ -63,7 +82,11 @@
     "hasMap": true,
     "phone": "+79688838884",
     "phoneDisplay": "+7 (968) 883-88-84",
-    "websiteLabel": "Есть страница в Яндекс Бизнесе"
+    "websiteLabel": "Есть страница в Яндекс Бизнесе",
+    "website": {
+      "url": "https://avtoservis-shinomontazh-ulitsa-kuryzhova.clients.site/",
+      "status": "bad"
+    }
   },
   {
     "id": "p1-07",
@@ -74,7 +97,10 @@
     "hasMap": true,
     "phone": "+79969975821",
     "phoneDisplay": "+7 (996) 997-58-21",
-    "websiteLabel": "Сайт не найден"
+    "websiteLabel": "Сайт не найден",
+    "website": {
+      "status": "none"
+    }
   },
   {
     "id": "p1-08",
@@ -85,7 +111,11 @@
     "hasMap": true,
     "phone": "+74951873887",
     "phoneDisplay": "+7 (495) 187-38-87",
-    "websiteLabel": "Есть сайт сети"
+    "websiteLabel": "Есть сайт сети",
+    "website": {
+      "url": "https://честный-автосервис.рф/",
+      "status": "bad"
+    }
   },
   {
     "id": "p1-09",
@@ -96,7 +126,11 @@
     "hasMap": true,
     "phone": "+79261803502",
     "phoneDisplay": "+7 (926) 180-35-02",
-    "websiteLabel": "Сайт указан в справочнике"
+    "websiteLabel": "Сайт указан в справочнике",
+    "website": {
+      "url": "http://www.vav-auto.ru",
+      "status": "bad"
+    }
   },
   {
     "id": "p1-10",
@@ -107,7 +141,10 @@
     "hasMap": true,
     "phone": "+79999973000",
     "phoneDisplay": "+7 (999) 997-30-00",
-    "websiteLabel": "Сайт не найден"
+    "websiteLabel": "Сайт не найден",
+    "website": {
+      "status": "none"
+    }
   },
   {
     "id": "p1-11",
@@ -118,7 +155,10 @@
     "hasMap": true,
     "phone": "+79912543891",
     "phoneDisplay": "+7 (991) 254-38-91",
-    "websiteLabel": "Сайт не найден"
+    "websiteLabel": "Сайт не найден",
+    "website": {
+      "status": "none"
+    }
   },
   {
     "id": "p2-01",
@@ -129,7 +169,10 @@
     "hasMap": true,
     "phone": "+79850157071",
     "phoneDisplay": "+7 (985) 015-70-71",
-    "websiteLabel": "Сайт не найден"
+    "websiteLabel": "Сайт не найден",
+    "website": {
+      "status": "none"
+    }
   },
   {
     "id": "p2-02",
@@ -140,7 +183,10 @@
     "hasMap": true,
     "phone": "+79691280403",
     "phoneDisplay": "+7 (969) 128-04-03",
-    "websiteLabel": "Сайт не найден"
+    "websiteLabel": "Сайт не найден",
+    "website": {
+      "status": "none"
+    }
   },
   {
     "id": "p2-03",
@@ -151,7 +197,11 @@
     "hasMap": true,
     "phone": "+79153291919",
     "phoneDisplay": "+7 (915) 329-19-19",
-    "websiteLabel": "Есть собственный сайт"
+    "websiteLabel": "Есть собственный сайт",
+    "website": {
+      "url": "https://ads-tehcentr.ru/",
+      "status": "normal"
+    }
   },
   {
     "id": "p2-04",
@@ -162,7 +212,11 @@
     "hasMap": true,
     "phone": "+79160818333",
     "phoneDisplay": "+7 (916) 081-83-33",
-    "websiteLabel": "Есть страница в Яндекс Бизнесе"
+    "websiteLabel": "Есть страница в Яндекс Бизнесе",
+    "website": {
+      "url": "https://expert-domodedovo.clients.site/",
+      "status": "bad"
+    }
   },
   {
     "id": "p2-05",
@@ -173,7 +227,11 @@
     "hasMap": true,
     "phone": "+79858634766",
     "phoneDisplay": "+7 (985) 863-47-66",
-    "websiteLabel": "Есть собственный сайт"
+    "websiteLabel": "Есть собственный сайт",
+    "website": {
+      "url": "https://sofit-dmd.ru/main.html",
+      "status": "normal"
+    }
   },
   {
     "id": "p2-06",
@@ -184,7 +242,11 @@
     "hasMap": true,
     "phone": "+79256644404",
     "phoneDisplay": "+7 (925) 664-44-04",
-    "websiteLabel": "Есть страница в Яндекс Бизнесе"
+    "websiteLabel": "Есть страница в Яндекс Бизнесе",
+    "website": {
+      "url": "https://autotechzone.clients.site/",
+      "status": "bad"
+    }
   },
   {
     "id": "p2-07",
@@ -195,6 +257,10 @@
     "hasMap": true,
     "phone": "+74952298063",
     "phoneDisplay": "+7 (495) 229-80-63",
-    "websiteLabel": "Есть собственный сайт"
+    "websiteLabel": "Есть собственный сайт",
+    "website": {
+      "url": "https://service-drive.ru/",
+      "status": "bad"
+    }
   }
 ]
