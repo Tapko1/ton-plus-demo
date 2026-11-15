@@ -37,6 +37,14 @@ header .demo {
   font-weight: 650;
 }
 
+.footer-inner .website-phone {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: inherit;
+  text-underline-offset: .18em;
+}
+
 .service-card .price {
   display: inline-block;
 }
